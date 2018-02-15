@@ -1,6 +1,6 @@
 body {
     background: #efeee7;
-    font-family: "Georgia", Times New Roman, Times, serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #333333;
     margin: 0;
     padding: 0;
@@ -40,13 +40,21 @@ h2 {
 }
 
 #bio-image {
-    margin: 10px;
+    clear:both;
+    margin-right: 20px;
+    margin-bottom: 5px;
     width: 200px;
     height: 200px;
 }
 
 #main-bio {
     width: 70%;
+    position: relative;
+}
+
+.bioText {
+    position: relative;
+    top: -10px;
 }
 
 #contact-info {
